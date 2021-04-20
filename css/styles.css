@@ -370,6 +370,7 @@ ul {
 .work-job-list {
   display: inline-flex;
   color: var(--icon-color);
+  fill: var(--icon-color);
   width: 170px;
   height: 90px;
   border: 1px solid var(--icon-color);
@@ -382,28 +383,19 @@ ul {
   margin-right: 30px;
 }
 
-.work-job-link {
-  display: inline-flex;
-  color: var(--icon-color);
-  width: 170px;
-  height: 90px;
-  border: 1px solid var(--icon-color);
-  border-radius: 4px;
-  justify-content: center;
-  align-items: center;
+.work-job-svg {
+  fill: currentColor;
 }
 
+.work-job-svg:hover,
+.work-job-svg:focus,
+.work-job-list:focus,
+.work-job-list:hover,
 .work-job-link:focus,
 .work-job-link:hover {
   fill: var(--accent-color);
   color: var(--accent-color);
-  background-color: var(--accent-color);
-}
-
-.work-job-lin1:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .social-footer {
